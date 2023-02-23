@@ -5,7 +5,7 @@ namespace EntityFramework.Model
 {
     public class Student
     {
-         {
+         
 
         [Key]
         public int Id { get; set; }
@@ -17,4 +17,4 @@ namespace EntityFramework.Model
 
     }
 }
-}
+

@@ -14,7 +14,7 @@ namespace EntityFramework.Db
             protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             {
 
-                var path = "Server=localhost\\SQLEXPRESS;Database=ZDB2;Trusted_Connection=SSPI;Encrypt=false;TrustServerCertificate=true";
+                var path = "Server=localhost\\SQLEXPRESS;Database=ENTITY;Trusted_Connection=SSPI;Encrypt=false;TrustServerCertificate=true";
                 optionsBuilder.UseSqlServer(path);
                 optionsBuilder.UseSqlServer(path);
                 base.OnConfiguring(optionsBuilder);
